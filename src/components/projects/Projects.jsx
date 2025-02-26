@@ -1,5 +1,7 @@
-import { PROJECTS } from "../../../public/assets/constants";
+import { PROJECTS } from "../../assets/constants";
 import { motion } from "framer-motion";
+import { FaGithub } from "react-icons/fa";
+import { HiOutlinePlay } from "react-icons/hi2";
 
 const Technologies = ({technologies}) => {
 	return (
@@ -26,6 +28,18 @@ const Projects = () => {
 						<p className="mb-4 text-neutral-400">{project.description}</p>
 						<div className="gap-2 flex flex-wrap">
 							<Technologies technologies={project.technologies}/>
+						</div>
+						<div className="flex gap-4">
+							<motion.a whileHover={{scale: 1.2}} href={project.repository} target="_blank"
+								className="inline-flex gap-2 text-sm rounded my-4 px-2 py-1 bg-neutral-800 cursor-pointer">
+								<FaGithub className="text-xl"/>
+								Repository
+							</motion.a>
+							<motion.a whileHover={{scale: 1.2}} href={project.demo} target="_blank"
+								className="inline-flex gap-2 text-sm rounded my-4 px-2 py-1 bg-neutral-800 cursor-pointer">
+								<HiOutlinePlay className="text-xl"/>
+								Demo
+							</motion.a>
 						</div>
 					</motion.div>
 				</div>

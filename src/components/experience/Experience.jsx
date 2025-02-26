@@ -1,4 +1,4 @@
-import { EXPERIENCES } from "../../../public/assets/constants";
+import { EXPERIENCES } from "../../assets/constants";
 import { motion } from "framer-motion";
 
 const Technologies = ({ technologies }) => {
