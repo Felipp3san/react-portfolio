@@ -2,6 +2,7 @@ import phpshopProject from '../images/projects/php-shop.png';
 import wpfmoviesProject from '../images/projects/wpfmoviesProject.png'
 import portfolioProject from '../images/projects/portfolioProject.png'
 import djangoProject from '../images/projects/djangoProject.png'
+import quoteProject from '../images/projects/quoteProject.png'
 
 export const HERO_CONTENT = `I am a full stack developer, with hands-on experience in technologies PHP (Laravel, Livewire), JavaScript (Node.js, Alpine.js) and MySQL. I'm constantly learning new technologies to stay updated with the market requirements and to refine my skills. My goal is to become a versatile professional with a strong and diverse technical foundation.`;
 
@@ -20,7 +21,16 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 	{
-		title: "This portfolio",
+		title: "Quote Generator",
+		image: quoteProject,
+		repository: "https://github.com/Felipp3san/quote-generator",
+		demo: "https://quote-generator.felippesantana.me",
+		description:
+			"A simple and interactive Quote Generator built with React that fetches quotes from an API and updates the UI dynamically. The project also allows users to share quotes on Twitter with a single click.",
+		technologies: ["Javascript", "React", "Node", "Vite", "Axios", "CSS Modules", "React Icons"],
+	},
+	{
+		title: "This Portfolio",
 		image: portfolioProject,
 		repository: "https://github.com/Felipp3san/react-portfolio",
 		demo: "",

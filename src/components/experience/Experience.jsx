@@ -26,8 +26,12 @@ const Experiences = () => {
 					</motion.div>
 					<motion.div initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 1 }}
 						className="w-full max-w-xl lg:w-3/4 flex-wrap flex">
-						<h6 className="mb-2 font-semibold">{experience.role} - <span className="text-sm text-purple-100">{experience.company}</span></h6>
-						<p className="mb-4 text-neutral-400 text-justify">{experience.description}</p>
+						<h6 className="mb-2 font-semibold">
+							{experience.role} - <span className="text-sm text-purple-100">{experience.company}</span>
+						</h6>
+						<p className="mb-4 text-neutral-400 text-justify">
+							{experience.description}
+						</p>
 						<Technologies technologies={experience.technologies} />
 					</motion.div>
 				</div>
