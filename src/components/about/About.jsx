@@ -6,10 +6,7 @@ const About = () => {
 	return (
 		<div className="border-b border-neutral-900 pb-4">
 			<h1 className="my-20 text-center text-4xl">
-				About 
-				<span className="text-neutral-500">
-					Me
-				</span>
+				About <span className="text-neutral-500">Me</span>
 			</h1>
 			<div className="flex flex-wrap">
 				<motion.div initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0.5 }} 

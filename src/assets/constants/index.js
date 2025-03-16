@@ -3,6 +3,7 @@ import wpfmoviesProject from '../images/projects/wpfmoviesProject.png'
 import portfolioProject from '../images/projects/portfolioProject.png'
 import djangoProject from '../images/projects/djangoProject.png'
 import quoteProject from '../images/projects/quoteProject.png'
+import markdownProject from '../images/projects/markdownProject.png'
 
 export const HERO_CONTENT = `I am a full stack developer, with hands-on experience in technologies PHP (Laravel, Livewire), JavaScript (Node.js, Alpine.js) and MySQL. I'm constantly learning new technologies to stay updated with the market requirements and to refine my skills. My goal is to become a versatile professional with a strong and diverse technical foundation.`;
 
@@ -20,6 +21,15 @@ export const EXPERIENCES = [
 ]
 
 export const PROJECTS = [
+	{
+		title: "Markdown Previewer",
+		image: markdownProject,
+		repository: "https://github.com/Felipp3san/markdown-previewer",
+		demo: "https://markdown-previewer.felippesantana.me",
+		description:
+			"A simple and interactive Markdown Previewer built with React that allows users to input Markdown code in an editor and see the rendered output in real-time in a preview section. The project also features expandable editor and preview areas for a more flexible user experience.",
+		technologies: ["Javascript", "React", "Node", "Vite",  "CSS Modules", "React Icons"],
+	},
 	{
 		title: "Quote Generator",
 		image: quoteProject,
