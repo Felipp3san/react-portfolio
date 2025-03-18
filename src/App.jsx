@@ -1,5 +1,6 @@
 import About from "./components/about/About"
 import Contact from "./components/contact/Contact"
+import Education from "./components/education/Education"
 import Experience from "./components/experience/Experience"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
@@ -18,6 +19,7 @@ function App() {
 			<Hero />
 			<About />
 			<Technologies />
+			<Education />
 			<Experience />
 			<Project />
 			<Contact />

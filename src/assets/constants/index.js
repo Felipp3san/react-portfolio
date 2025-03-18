@@ -12,21 +12,25 @@ export const ABOUT_TEXT = `I am originally from Brasília, Brazil. In 2022, I mo
 After completing my first training in Portugal, i had the opportunity to work as a web developer, there i worked with variety of technologies such as PHP, Laravel, Livewire, Javascript and SQL databases like MySQL. Additionally, during my time there, I improved my ability to create responsive and visually appealing UIs. Since i enjoy staying active, i continuously learn new technologies and driven by this, in 2025, i decided to join 42 Porto to improve my both my technical skills and my ability to work in team, as it follows a peer-to-peer education method. I hope to become a better programmer with each passing day.`;
 
 export const EDUCATION = [
-	{
-		year: "04/2025 - Present",
-		course: "Software Developer",
-		school: "42 Porto",
-		location: "Porto, Portugal",
-		description: `Development of ERP systems using PHP with Laravel framework, Javascript and other related web development technologies. My responsibilities include both backend and frontend development, with a focus on the company’s portal, which currently handles BPM, CRM, and other business processes. I develop and maintain key features such as task management systems, project timelines, and product management sections that cover inventory, pricing, and categories. My role involves creating database structures, implementing Livewire components, integrating frontend functionalities, and ensuring a user-friendly interface. As a full-stack developer, I focus on optimizing the portal's usability and performance to streamline workflow management and support corporate operations.`,
-	},
-	{
-		year: "07/2023 - 07/2024",
-		course: "Software Developer",
-		school: "Mazagão Professional Training Center",
-		location: "Braga, Portugal",
-		description: `Development of ERP systems using PHP with Laravel framework, Javascript and other related web development technologies. My responsibilities include both backend and frontend development, with a focus on the company’s portal, which currently handles BPM, CRM, and other business processes. I develop and maintain key features such as task management systems, project timelines, and product management sections that cover inventory, pricing, and categories. My role involves creating database structures, implementing Livewire components, integrating frontend functionalities, and ensuring a user-friendly interface. As a full-stack developer, I focus on optimizing the portal's usability and performance to streamline workflow management and support corporate operations.`,
-	},
-]
+  {
+    year: "04/2025 - Present",
+    course: "Software Developer",
+    name: "42 Porto",
+    location: "Porto, Portugal",
+    description: `
+      At 42 Porto, I'm learning software development through a project-based, peer-driven curriculum. The focus is on building practical skills in programming, problem-solving, and teamwork. The learning approach is centered around hands-on challenges in various programming languages and technologies. I am currently working on real-world projects that simulate industry standards, enhancing my coding proficiency and collaboration abilities. 
+    `,
+  },
+  {
+    year: "07/2023 - 07/2024",
+    course: "Software Developer",
+    name: "Mazagão Professional Training Center",
+    location: "Braga, Portugal",
+    description: `
+      At Mazagão Professional Training Center, I developed a solid foundation in software development and IT systems. The curriculum covered a wide range of technologies, including programming languages like C, C++, and Java, as well as database modeling, computer architecture, and operating systems. I gained hands-on experience with frameworks and tools like Django, Flask, and WPF, as well as working with databases such as Microsoft SQL Server and Entity Framework. The program also introduced me to object-oriented programming (OOP), algorithms, and data structures.
+    `,
+  },
+];
 
 export const EXPERIENCES = [
 	{
