@@ -11,9 +11,26 @@ export const HERO_CONTENT = `I am a full stack developer, with hands-on experien
 export const ABOUT_TEXT = `I am originally from Brasília, Brazil. In 2022, I moved to Portugal in pursuit of new opportunities. Until mid-2023, I worked in areas unrelated to my field, gaining valuable experience in different professional contexts. However, i have always enjoyed programming, which led me to resume my training as a developer.
 After completing my first training in Portugal, i had the opportunity to work as a web developer, there i worked with variety of technologies such as PHP, Laravel, Livewire, Javascript and SQL databases like MySQL. Additionally, during my time there, I improved my ability to create responsive and visually appealing UIs. Since i enjoy staying active, i continuously learn new technologies and driven by this, in 2025, i decided to join 42 Porto to improve my both my technical skills and my ability to work in team, as it follows a peer-to-peer education method. I hope to become a better programmer with each passing day.`;
 
+export const EDUCATION = [
+	{
+		year: "04/2025 - Present",
+		course: "Software Developer",
+		school: "42 Porto",
+		location: "Porto, Portugal",
+		description: `Development of ERP systems using PHP with Laravel framework, Javascript and other related web development technologies. My responsibilities include both backend and frontend development, with a focus on the company’s portal, which currently handles BPM, CRM, and other business processes. I develop and maintain key features such as task management systems, project timelines, and product management sections that cover inventory, pricing, and categories. My role involves creating database structures, implementing Livewire components, integrating frontend functionalities, and ensuring a user-friendly interface. As a full-stack developer, I focus on optimizing the portal's usability and performance to streamline workflow management and support corporate operations.`,
+	},
+	{
+		year: "07/2023 - 07/2024",
+		course: "Software Developer",
+		school: "Mazagão Professional Training Center",
+		location: "Braga, Portugal",
+		description: `Development of ERP systems using PHP with Laravel framework, Javascript and other related web development technologies. My responsibilities include both backend and frontend development, with a focus on the company’s portal, which currently handles BPM, CRM, and other business processes. I develop and maintain key features such as task management systems, project timelines, and product management sections that cover inventory, pricing, and categories. My role involves creating database structures, implementing Livewire components, integrating frontend functionalities, and ensuring a user-friendly interface. As a full-stack developer, I focus on optimizing the portal's usability and performance to streamline workflow management and support corporate operations.`,
+	},
+]
+
 export const EXPERIENCES = [
 	{
-		year: "2024 - Present",
+		year: "05/2024 - 12/2024",
 		role: "Full Stack Developer",
 		company: "ARPMind",
 		description: `Development of ERP systems using PHP with Laravel framework, Javascript and other related web development technologies. My responsibilities include both backend and frontend development, with a focus on the company’s portal, which currently handles BPM, CRM, and other business processes. I develop and maintain key features such as task management systems, project timelines, and product management sections that cover inventory, pricing, and categories. My role involves creating database structures, implementing Livewire components, integrating frontend functionalities, and ensuring a user-friendly interface. As a full-stack developer, I focus on optimizing the portal's usability and performance to streamline workflow management and support corporate operations.`,
