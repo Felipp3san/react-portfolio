@@ -13,7 +13,7 @@ After completing my first training in Portugal, i had the opportunity to work as
 
 export const EDUCATION = [
   {
-    year: "04/2025 - Present",
+    year: "01/2025 - Present",
     course: "Software Developer",
     name: "42 Porto",
     location: "Porto, Portugal",
