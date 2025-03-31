@@ -44,6 +44,15 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 	{
+		title: "",
+		image: drumMachineProject,
+		repository: "https://github.com/Felipp3san/drum-machine",
+		demo: "https://drum-machine.felippesantana.me",
+		description:
+			"A fully interactive drum machine built with React that simulates a real drum machine experience. It features two sound banks, realistic CSS styling, and responsive buttons that light up on click, just like a real drum machine. It also includes volume and power buttons, along with a visor that reacts to every button press.",
+		technologies: ["Javascript", "React", "Node", "Vite",  "CSS Modules", "React Icons"],
+	},
+	{
 		title: "Drum Machine",
 		image: drumMachineProject,
 		repository: "https://github.com/Felipp3san/drum-machine",
