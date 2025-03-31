@@ -5,6 +5,7 @@ import djangoProject from '../images/projects/djangoProject.png'
 import quoteProject from '../images/projects/quoteProject.png'
 import markdownProject from '../images/projects/markdownProject.png'
 import drumMachineProject from '../images/projects/drumMachineProject.png'
+import pomodoroProject from '../images/projects/pomodoroClockProject.png'
 
 export const HERO_CONTENT = `I am a full stack developer, with hands-on experience in technologies PHP (Laravel, Livewire), JavaScript (Node.js, Alpine.js) and MySQL. I'm constantly learning new technologies to stay updated with the market requirements and to refine my skills. My goal is to become a versatile professional with a strong and diverse technical foundation.`;
 
@@ -44,13 +45,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 	{
-		title: "",
-		image: drumMachineProject,
-		repository: "https://github.com/Felipp3san/drum-machine",
-		demo: "https://drum-machine.felippesantana.me",
+		title: "Pomodoro Clock",
+		image: pomodoroProject,
+		repository: "https://github.com/Felipp3san/pomodoro-clock",
+		demo: "https://pomodoro-clock.felippesantana.me",
 		description:
-			"A fully interactive drum machine built with React that simulates a real drum machine experience. It features two sound banks, realistic CSS styling, and responsive buttons that light up on click, just like a real drum machine. It also includes volume and power buttons, along with a visor that reacts to every button press.",
-		technologies: ["Javascript", "React", "Node", "Vite",  "CSS Modules", "React Icons"],
+			"A fully functional Pomodoro Timer built with React, designed to help improve focus and productivity by following the Pomodoro Technique. It features a clean and minimalistic UI styled with Tailwind CSS and real-time timer updates.",
+		technologies: ["Javascript", "React", "Node", "Vite",  "Tailwind", "React Icons"],
 	},
 	{
 		title: "Drum Machine",
